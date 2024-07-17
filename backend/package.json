@@ -1,10 +1,10 @@
 {
   "name": "colorful-backend",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "type": "module",
   "description": "Backend of the colorful blog template app",
-  "main": "src/index.js",
   "scripts": {
-    "run": "node src/index.ks",
+    "dev": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aufashidqi Izza Muhammad",
