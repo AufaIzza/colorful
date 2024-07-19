@@ -1,7 +1,6 @@
 {
   "name": "colorful-backend",
   "version": "0.0.0",
-  "type": "module",
   "description": "Backend of the colorful blog template app",
   "scripts": {
     "dev": "node src/index.js",

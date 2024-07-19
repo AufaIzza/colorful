@@ -1,12 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  developement: {
-    username: 'root',
-    password: 'root',
-    storage: path.resolve('../database/storage', "colorful.sqlite"),
+  development: {
     dialect: 'sqlite',
+    storage: path.resolve('src/database/storage', "colorful.sqlite"),
     logging: false,
-    host: 'localhost'
   }
 }
